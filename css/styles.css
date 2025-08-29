@@ -131,7 +131,7 @@ a{
                     text-align: center;
                     color: #2e2f42;}
         
-                .team-text {Base typography Copy font-weight: 400;
+                .team-text { font-weight: 400;
                     font-size: 16px;
                     line-height: 1.5;
                     letter-spacing: 0.02em;
