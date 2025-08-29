@@ -1,4 +1,6 @@
-body{}
+body{
+    font-family: "Roboto" "Raleway", sans-serif
+}
 
 ul{
     list-style-type: none;
@@ -7,148 +9,189 @@ ul{
 a{
     text-decoration: none;
 }
+/* ----------HEADER---------- */
+.header 
 
-.header-logo{
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #2e2f42;
-}
+.header-navigation {}
 
-.header-logo-italic{
-font-weight: 700;
+.header-logo {font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
-}
+    color: #2e2f42;}
 
-.header-menu-list {
-    font-weight: 500;
+.header-logo-italic {font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;}
+
+.header-menu-list {font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42
-}
+    color: #2e2f42;}
 
-.header-contacts-list{
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
+.header-menu-item {}
 
-.hero-title{
-    font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
-}
+.header-menu-link {}
 
-.hero-button{
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff
-}
+.header-contacts {}
 
-.features-subtitle{
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
+.header-contacts-list {}
 
-.features-text{
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455
-}
+.header-contacts-item {}
 
-.team-title{
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-}
+.header-contacts-link {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
+        /* ----------HEADER---------- */
 
-.team-subtitle{
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-}
+        /* ----------MAIN---------- */
+                .main
+                /* ----------MAIN---------- */
 
-.team-text{
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #434455;
-}
+/* ----------HERO---------- */
+                .hero {}
+        
+                .hero-title {font-weight: 700;
+                    font-size: 56px;
+                    line-height: 1.07143;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+                    color: #fff;}
+        
+                .hero-button {border-radius: 4px;
+                    padding: 16px 32px;
+                    width: 169px;
+                    height: 56px;
+                box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+                    background: #4d5ae5;}
+        
+                                        /* ----------HERO---------- */
+                /* ----------FEATURES---------- */
+                .features {}
+        
+                .visually-hidden { 
+                        position: absolute;
+                        width: 1px;
+                        height: 1px;
+                        margin: -1px;
+                        border: 0;
+                        padding: 0;
+                
+                        white-space: nowrap;
+                        clip-path: inset(100%);
+                        clip: rect(0 0 0 0);
+                        overflow: hidden;
+                    }
+        
+                .features-list {}
+        
+                .features-item {}
+        
+                .features-subtitle {font-weight: 500;
+                    font-size: 20px;
+                    line-height: 1.2;
+                    letter-spacing: 0.02em;
+                    color: #2e2f42;}
+        
+                .features-text {font-weight: 400;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: 0.02em;
+                    color: #434455;}
+        
+                                        /* ----------FEATURES---------- */
+                /* ----------TEAM---------- */
+        
+                .team {}
+        
+                .team-title {font-weight: 700;
+                    font-size: 36px;
+                    line-height: 1.11;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+                    color: #2e2f42;}
+        
+                .team-list {}
+        
+                .team-item {}
+        
+                .team-image {}
+        
+                .team-subtitle {font-weight: 500;
+                    font-size: 20px;
+                    line-height: 1.2;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+                    color: #2e2f42;}
+        
+                .team-text {Base typography Copy font-weight: 400;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+                    color: #434455;}
+        
+                                        /* ----------TEAM---------- */
+                /* ----------PORTFOLIO---------- */
+        
+                .portfolio {}
+        
+                .portfolio-title {
+                    font-weight: 700;
+                        font-size: 36px;
+                        line-height: 1.11111;
+                        letter-spacing: 0.02em;
+                        text-align: center;
+                        color: #2e2f42;
+                }
+        
+                .portfolio-list {}
+        
+                .portfolio-item {}
+        
+                .portfolio-image {}
+        
+                .portfolio-subtitle {font-weight: 500;
+                    font-size: 20px;
+                    line-height: 1.2;
+                    letter-spacing: 0.02em;
+                    color: #2e2f42;}
+        
+                .portfolio-text {font-weight: 400;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: 0.02em;
+                    color: #434455;}
+        
+                                        /* ----------PORTFOLIO---------- */
 
-.portfolio-title{
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-}
-
-.portfolio-subtitle{
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
-
-.portfolio-text{
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
-
-.footer-logo{
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #f4f4fd;
-}
-
-.footer-logo-italic{
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-}
-
-.footer-text{
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
-}
+        /* ----------FOOTER---------- */
+                .footer {}
+        
+                .footer-logo {font-weight: 700;
+                    font-size: 18px;
+                    line-height: 1.16667;
+                    letter-spacing: 0.03em;
+                    text-transform: uppercase;
+                    color: #f4f4fd;}
+        
+                .footer-logo-italic {font-weight: 700;
+                    font-size: 18px;
+                    line-height: 1.16667;
+                    letter-spacing: 0.03em;
+                    text-transform: uppercase;
+                    color: #4d5ae5}
+        
+                .footer-text {font-weight: 400;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: 0.02em;
+                    color: #f4f4fd;}
+         
