@@ -40,7 +40,7 @@ a {
 }
 
 .header-logo-span {
-    color: var(--header-title-color);
+    color: #2e2f42;
 }
 
 .header-menu-list {
@@ -243,8 +243,9 @@ a {
 }
 
 .footer-logo-span {
-    color: var(--footer-text-color);
-}
+    color: #f4f4fd;
+    }
+
 
 .footer-text {
     font-size: 16px;
