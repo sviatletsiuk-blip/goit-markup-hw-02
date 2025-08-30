@@ -1,5 +1,6 @@
 body{
-    font-family: "Roboto" "Raleway", sans-serif
+    font-family: "Roboto" "Raleway", sans-serif;
+    color: #2e2f42;;
 }
 
 ul{
@@ -10,7 +11,12 @@ a{
     text-decoration: none;
 }
 /* ----------HEADER---------- */
-.header 
+.header{
+border-bottom: 1px solid #e7e9fc;
+    width: 1440px;
+    height: 72px;
+    background: #fff;
+} 
 
 .header-navigation {}
 
@@ -36,7 +42,11 @@ a{
 
 .header-menu-item {}
 
-.header-menu-link {}
+.header-menu-link:hover {
+    color: #404bbf;
+}
+
+
 
 .header-contacts {}
 
@@ -44,19 +54,30 @@ a{
 
 .header-contacts-item {}
 
-.header-contacts-link {font-weight: 400;
+.header-contacts-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;}
+
+    .header-contacts-link:hover {
+        color: #404bbf;
+    }
+
+        .header-contacts-link:focus{
+            color: #404bbf;
+        }
         /* ----------HEADER---------- */
 
         /* ----------MAIN---------- */
                 .main
-                /* ----------MAIN---------- */
+        /* ----------MAIN---------- */
 
-/* ----------HERO---------- */
-                .hero {}
+        /* ----------HERO---------- */
+                .hero {width: 1440px;
+                    height: 600px;
+                background: #2e2f42;
+            }
         
                 .hero-title {font-weight: 700;
                     font-size: 56px;
@@ -70,11 +91,21 @@ a{
                     width: 169px;
                     height: 56px;
                 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-                    background: #4d5ae5;}
-        
-                                        /* ----------HERO---------- */
-                /* ----------FEATURES---------- */
-                .features {}
+                    background: #4d5ae5;
+                    cursor: pointer;
+                }
+                
+                .hero-button:hover{
+                 background: #404bbf;
+                }
+
+                .hero-button:focus{
+                 background: #404bbf;
+                }
+
+        /* ----------HERO---------- */
+        /* ----------FEATURES---------- */
+                .features { }
         
                 .visually-hidden { 
                         position: absolute;
@@ -100,16 +131,17 @@ a{
                     letter-spacing: 0.02em;
                     color: #2e2f42;}
         
-                .features-text {font-weight: 400;
+                .features-text {
                     font-size: 16px;
                     line-height: 1.5;
                     letter-spacing: 0.02em;
                     color: #434455;}
         
-                                        /* ----------FEATURES---------- */
-                /* ----------TEAM---------- */
+        /* ----------FEATURES---------- */
+        /* ----------TEAM---------- */
         
-                .team {}
+                .team {width: 1440px;
+                background: #f4f4fd;}
         
                 .team-title {font-weight: 700;
                     font-size: 36px;
@@ -131,49 +163,54 @@ a{
                     text-align: center;
                     color: #2e2f42;}
         
-                .team-text { font-weight: 400;
+                .team-text {
                     font-size: 16px;
                     line-height: 1.5;
                     letter-spacing: 0.02em;
                     text-align: center;
                     color: #434455;}
         
-                                        /* ----------TEAM---------- */
-                /* ----------PORTFOLIO---------- */
+        /* ----------TEAM---------- */
+        /* ----------PORTFOLIO---------- */
         
-                .portfolio {}
+        .portfolio {}
+    
+        .portfolio-title {
+            font-weight: 700;
+                font-size: 36px;
+                line-height: 1.11111;
+                letter-spacing: 0.02em;
+                text-align: center;
+                color: #2e2f42;;
+        }
+    
+        .portfolio-list {}
+    
+        .portfolio-item {}
+    
+        .portfolio-image {}
+    
+        .portfolio-subtitle {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+        }
+    
+        .portfolio-text {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+        }
         
-                .portfolio-title {
-                    font-weight: 700;
-                        font-size: 36px;
-                        line-height: 1.11111;
-                        letter-spacing: 0.02em;
-                        text-align: center;
-                        color: #2e2f42;
-                }
-        
-                .portfolio-list {}
-        
-                .portfolio-item {}
-        
-                .portfolio-image {}
-        
-                .portfolio-subtitle {font-weight: 500;
-                    font-size: 20px;
-                    line-height: 1.2;
-                    letter-spacing: 0.02em;
-                    color: #2e2f42;}
-        
-                .portfolio-text {font-weight: 400;
-                    font-size: 16px;
-                    line-height: 1.5;
-                    letter-spacing: 0.02em;
-                    color: #434455;}
-        
-                                        /* ----------PORTFOLIO---------- */
+        /* ----------PORTFOLIO---------- */
 
         /* ----------FOOTER---------- */
-                .footer {}
+                .footer {width: 1440px;
+                    height: 312px;
+                    background: #2e2f42;}
         
                 .footer-logo {font-weight: 700;
                     font-size: 18px;
@@ -189,9 +226,9 @@ a{
                     text-transform: uppercase;
                     color: #4d5ae5}
         
-                .footer-text {font-weight: 400;
+                .footer-text {
                     font-size: 16px;
                     line-height: 1.5;
                     letter-spacing: 0.02em;
                     color: #f4f4fd;}
-         
+         /* ----------FOOTER---------- */
